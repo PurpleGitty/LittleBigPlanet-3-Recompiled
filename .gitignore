@@ -1,0 +1,22 @@
+# Game files are never part of this project: each user points the runtime at their own
+# dump (game_dir.txt / LBP3_GAME_DIR, see README.md).
+CUSA*/
+*.complete
+extracted/
+itemzflow/
+game_dir.txt
+
+# Local output: builds, logs, dumps, saves, caches (these can contain game data)
+build/
+analysis/
+user/
+mods/
+
+# Reference screenshots for tools/nav.py are taken from each user's own game
+tools/nav_refs/*.png
+
+__pycache__/
+*.pyc
+
+# Prebuilt SDL3 (download it, see README.md)
+third_party/SDL3/
