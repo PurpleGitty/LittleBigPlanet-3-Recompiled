@@ -5,6 +5,9 @@ executable and modules from **your own dump of the game**, links them against
 high-level reimplementations of the PS4 system libraries (`runtime/src/hle`), and
 renders through [shadPS4](https://github.com/shadps4-emu/shadPS4)'s GPU emulation.
 
+Made with [Claude Code](https://claude.com/claude-code) on the Opus 5.5 model. `NOTES.md` is
+the running log of that work (what was tried, found and fixed), useful for picking it up.
+
 **No game files are included or will be accepted.** You need a legally obtained dump of
 your own copy (base game CUSA00473 and its update).
 
